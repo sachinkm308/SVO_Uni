@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/install
+
+Name: svo_ros
+Description: Description of svo_ros
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3 -I/usr/include -I/usr/include/opencv -I/home/nvidia/workspace/Sophus
+Libs: -L${prefix}/lib -lsvo_visualizer /usr/lib/libopencv_calib3d.so.3.3.1 /usr/lib/libopencv_core.so.3.3.1 /usr/lib/libopencv_dnn.so.3.3.1 /usr/lib/libopencv_features2d.so.3.3.1 /usr/lib/libopencv_flann.so.3.3.1 /usr/lib/libopencv_highgui.so.3.3.1 /usr/lib/libopencv_imgcodecs.so.3.3.1 /usr/lib/libopencv_imgproc.so.3.3.1 /usr/lib/libopencv_ml.so.3.3.1 /usr/lib/libopencv_objdetect.so.3.3.1 /usr/lib/libopencv_photo.so.3.3.1 /usr/lib/libopencv_shape.so.3.3.1 /usr/lib/libopencv_stitching.so.3.3.1 /usr/lib/libopencv_superres.so.3.3.1 /usr/lib/libopencv_video.so.3.3.1 /usr/lib/libopencv_videoio.so.3.3.1 /usr/lib/libopencv_videostab.so.3.3.1 /home/nvidia/workspace/Sophus/build/libSophus.so /usr/lib/aarch64-linux-gnu/libboost_thread.so /usr/lib/aarch64-linux-gnu/libboost_chrono.so /usr/lib/aarch64-linux-gnu/libboost_system.so /usr/lib/aarch64-linux-gnu/libboost_date_time.so /usr/lib/aarch64-linux-gnu/libboost_atomic.so /usr/lib/aarch64-linux-gnu/libpthread.so
+Requires: roscpp nav_msgs std_msgs visualization_msgs sensor_msgs image_transport cv_bridge tf svo svo_msgs vikit_common vikit_ros
